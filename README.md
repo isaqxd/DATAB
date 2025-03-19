@@ -23,11 +23,11 @@ Como fazer uma tabela se relacionar com outra dentro de uma IDE para rodar no ba
 Como fazer para uma tabela identificar que aquilo que está dentro dela é uma chave estrangeira? Existem duas formas de fazer, uma que é simples e a outra que é complicada. No momento vamos fazer o modelo que é mais complicato para aprendermos a criar uma <B>"constraint"</B> o nome que vou inserir é <B>FK_Cliente_Venda</B>. para definir que ela é vou usar <B>foreign key id_cliente</B>
 <br><br>
 A declaração Alter modifica um objeto existente do banco de dados. Para adicionar uma nova tabela podemos utilizar:<br><br>
-ALTER TABBLE Clientes<br>
+ALTER TABLE Clientes<br>
 ADD COLUMN Telefone VARCHAR(15)<br>
 Dentro do workbench vai ser adicionada uma nova tabela.<br><br>
 Caso eu queria modificar algo eu posso fazer isso:<br><br>
-ALTER TABBLE Clientes<br>
+ALTER TABLE Clientes<br>
 MODIFY "escolher o certo" "definir o novo"<br>
 Para deletar algo posso fazer um:<br><br>
 Alter Table Clientes<br>
