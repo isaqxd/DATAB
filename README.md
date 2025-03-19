@@ -14,7 +14,7 @@ Ao fazer alguns campos tem que ficar muito alerta para ver se ele tem o atributo
 <br><br>
 Ao for colocar algo que é passivel a negociação ele tem que começar com um valor default afinal ele pode ser alterado.
 <br><br>
-Ao fazer um ano de fabricação é bom usar Int ao invez de Date porque dentro do SQL é necessario pesquisar ano, mes e data e isso não é importante para a busca.
+Ao fazer um ano de fabricação é bom usar Int ao inves de Date porque dentro do SQL é necessario pesquisar ano, mes e data e isso não é importante para a busca.
 <br><br>
 A função check serve para "checar" caso uma regra de por exemplo uma loja que vende carros apenas aceita de um ano inteiro.
 <br><br>
