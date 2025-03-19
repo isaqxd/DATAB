@@ -5,7 +5,7 @@ Em primeiro momento temos que identificar as entidades aonde os dados serão gua
 <br><br>
 <b>Foi passado um trabalho em grupo no AVA dividido em 15 pessoas.</b> para a proxima semana, ele vai ter que ser feito em uma apresentação de slide.</p>
 
-# AUÇA 3
+# AULA 3 👨🏻‍💻
 <p>Regras para se trabalhar em um banco de dados, o primeiro problema ao fazer uma mudança e mudar o banco de dados, a forma correta é usar o alter do ddn o create cria, o alter altera e o "outro". deleta.
 <br><br>
 DEFAULT: serve para colocar que um valor se inicia no zero.<br>Quando uma tabela for ter nome use como regra começar com letra maiuscula e caso seja composta iniciar as Duas palavras com letra maiuscula como por exemplo. Se uma tabela for: Cliente.
