@@ -7,19 +7,19 @@ Em primeiro momento temos que identificar as entidades aonde os dados serão gua
 
 # AUÇA 3
 <p>Regras para se trabalhar em um banco de dados, o primeiro problema ao fazer uma mudança e mudar o banco de dados, a forma correta é usar o alter do ddn o create cria, o alter altera e o "outro". deleta.
-<br>
+<br><br>
 DEFAULT: serve para colocar que um valor se inicia no zero.<br>Quando uma tabela for ter nome use como regra começar com letra maiuscula e caso seja composta iniciar as Duas palavras com letra maiuscula como por exemplo. Se uma tabela for: Cliente.
-<br>
+<br><br>
 Ao fazer alguns campos tem que ficar muito alerta para ver se ele tem o atributo certo, por exemplo uma placa de um carro tem que ser Unico.
-<br>
+<br><br>
 Ao for colocar algo que é passivel a negociação ele tem que começar com um valor default afinal ele pode ser alterado.
-<br>
+<br><br>
 Ao fazer um ano de fabricação é bom usar Int ao invez de Date porque dentro do SQL é necessario pesquisar ano, mes e data e isso não é importante para a busca.
-<br>
+<br><br>
 A função check serve para "checar" caso uma regra de por exemplo uma loja que vende carros apenas aceita de um ano inteiro.
-<br>
+<br><br>
 Como fazer uma tabela se relacionar com outra dentro de uma IDE para rodar no banco de dados. Tem que ter três coisas primeiramente, 1º criar os atributos dentro da tabela para receber a chave estrangeira. O nome dentro da chave pode ser qualquer um mas autores gostam de repetir o nome ou inverter a forma que foi nomeado para fins de identificação. O nome pode ser diferente mas o tipo dentro da tabela de origem e da estrangeira devem ser o mesmo. Apenas um que não é necessario que é o autoincrement e não deve ser colocada dentro de uma estrangeira. o Dominio e as intruções devem ser iguais.
-<br>
+<br><br>
 Como fazer para uma tabela identificar que aquilo que está dentro dela é uma chave estrangeira? Existem duas formas de fazer, uma que é simples e a outra que é complicada. No momento vamos fazer o modelo que é mais complicato para aprendermos a criar uma "constraint" o nome que vou inserir é FK_Cliente_Venda. para definir que ela é vou usar ( foreign key(id_cliente))
 
 </p>
