@@ -1,6 +1,6 @@
 #exercicio
 
-<P<create database db_exercicio_biblioteca;<br>
+<p>create database db_exercicio_biblioteca;<br>
 use db_exercicio_biblioteca;<br><br>
 
 ## -- Tabela Autores
