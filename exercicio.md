@@ -3,7 +3,7 @@
 <p>create database db_exercicio_biblioteca;<br>
 use db_exercicio_biblioteca;<br><br>
 
-## -- Tabela Autores
+### -- Tabela Autores
 create table Autores(<br>
         id_autor int auto_increment,<br>
         nome varchar(50) not null,<br>
@@ -15,7 +15,7 @@ create table Autores(<br>
 Alter table Autores<br>
 change column nacional nacionalidade varchar(30) not null;<br>
 
-## -- Tabela Categorias
+### -- Tabela Categorias
 
 create table Categorias(<br>
         id_categoria int auto_increment,<br>
@@ -23,7 +23,7 @@ create table Categorias(<br>
         primary key(id_categoria)<br>
 );<br>
 
-## -- Tabela Livros
+### -- Tabela Livros
 
 create table Livros(<br>
         id_livro int auto_increment,<br>
