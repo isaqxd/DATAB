@@ -1,32 +1,35 @@
 #exercicio
 
-create database db_exercicio_biblioteca;
-use db_exercicio_biblioteca;
+<P<create database db_exercicio_biblioteca;<br>
+use db_exercicio_biblioteca;<br><br>
 
--- Tabela Autores
-create table Autores(
-	id_autor int auto_increment,
-    nome varchar(50) not null,
-    sobrenome varchar(50) not null,
-    nacional varchar(50) not null,
-    primary key (id_autor)
-);
+## -- Tabela Autores
+create table Autores(<br>
+	id_autor int auto_increment,<br>
+	nome varchar(50) not null,<br>
+	sobrenome varchar(50) not null,<br>
+	nacional varchar(50) not null,<br>
+	primary key (id_autor)<br>
+);<br><br>
 
-Alter table Autores
-change column nacional nacionalidade varchar(30) not null;
+Alter table Autores<br>
+change column nacional nacionalidade varchar(30) not null;<br>
 
--- Tabela Categorias
-create table Categorias(
-	id_categoria int auto_increment,
-    descricao varchar(50) not null,
-    primary key(id_categoria)
-);
+## -- Tabela Categorias
 
--- Tabela Livros
-create table Livros(
-	id_livro int auto_increment,
-    titulo varchar(100) not null,
-    AnoPublicacao year,
-    autor_id int,
-    primary key(id_livro)
-);
+create table Categorias(<br>
+	id_categoria int auto_increment,<br>
+    	descricao varchar(50) not null,<br>
+    	primary key(id_categoria)<br>
+);<br>
+
+## -- Tabela Livros
+
+create table Livros(<br>
+	id_livro int auto_increment,<br>
+	titulo varchar(100) not null,<br>
+	AnoPublicacao year,<br>
+	autor_id int,<br>
+	primary key(id_livro)<br>
+);<br>
+</p>
