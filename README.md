@@ -47,7 +47,7 @@ para selecionar uma coluna de uma tabala dentro do SQL usamos dentro do SELECT f
 
 <b>SELECT<br>
 <b>Veiculo.marca<b>, Venda.valorVenda,<br>
-<b>Cliente.nome AS  nome_cliente,<br>
+<b>Cliente.nome<b> AS  nome_cliente,<br>
 Funcionario.nome AS nome_cliente,<b> o "AS" é utilizado para dentro desta busca ele receber um apelido para exibição e conseguir exibir pois neste caso sem o AS ele exibiria duas tabelas com nomeada de "nome".<br>
 FROM Veiculo<br>
 <b>INNER JOIN<b> Venda <b>ON<b> Veiculo.idVeiculo = Venda.idVeiculo<br>
