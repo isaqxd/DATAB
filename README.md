@@ -33,4 +33,25 @@ Para deletar algo posso fazer um:<br><br>
 Alter Table Clientes<br>
 drop column Ativo.
 
+# AULA 4 👨🏻‍💻
+
+DML - data manipulation language. Linguagem de manipulação de dados.<br><br>
+
+São comandos DML. INSERT, DELETE E UPDATE.<br>
+Para fazer a estrutura usamos os comandos de DDL.<br>
+Como se faz para fazer consultas para fazer as DQL.<br><br>
+
+A diferentaça entre o comando ALTER e UPDATE é que o (alter) é usado para alterar a estrutura de dados e o (updtate) é utilizado para alterar os registros.<br><br>
+
+para selecionar uma coluna de uma tabala dentro do SQL usamos dentro do SELECT fazemos o seguinte uso de [.] como por exemplo<br><br>
+
+<b>SELECT<br>
+<b>Veiculo.marca<b>, Venda.valorVenda,<br>
+<b>Cliente.nome AS  nome_cliente,<br>
+Funcionario.nome AS nome_cliente,<b> o "AS" é utilizado para dentro desta busca ele receber um apelido para exibição e conseguir exibir pois neste caso sem o AS ele exibiria duas tabelas com nomeada de "nome".<br>
+FROM Veiculo<br>
+<b>INNER JOIN<b> Venda <b>ON<b> Veiculo.idVeiculo = Venda.idVeiculo<br>
+INNER JOIN Cliente ON Venda.idCliente = Cliente.idCliente<br>
+INNER JOIN Funcionario ON Venda.idFuncionario = Funcionario.id_Funcionario
+WHERE Venda.data_venda > '2024-09-01;
 </p>
