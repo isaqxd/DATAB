@@ -52,6 +52,15 @@ Funcionario.nome AS nome_cliente, o <b>"AS"</b> é utilizado para dentro desta b
 FROM Veiculo<br>
 <b>INNER JOIN</b> Venda <b>ON</b> Veiculo.idVeiculo = Venda.idVeiculo<br>
 INNER JOIN Cliente ON Venda.idCliente = Cliente.idCliente<br>
-INNER JOIN Funcionario ON Venda.idFuncionario = Funcionario.id_Funcionario
-WHERE Venda.data_venda > '2024-09-01;
+INNER JOIN Funcionario ON Venda.idFuncionario = Funcionario.id_Funcionario<br>
+WHERE Venda.data_venda > '2024-09-01;<br><br>
+
+Temos também como criar uma "visualização" com o comando <b>CREATE VIEW</b> nomeDaView <b>AS</b><br>
+SELECT<br>
+id_funcionario,<br>
+ROUND(AVG(valor_venda), 2) AS media_valor_venda,<br>
+COUNT(*) AS total_vendas<br>
+FROM Venda<br><br>
+
+<b>GROUP</b> id_funcionario; GROUP desta forma agrupou pelo id do funcionario.<br>
 </p>
