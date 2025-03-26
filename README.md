@@ -45,12 +45,12 @@ A diferentaça entre o comando ALTER e UPDATE é que o (alter) é usado para alt
 
 para selecionar uma coluna de uma tabala dentro do SQL usamos dentro do SELECT fazemos o seguinte uso de [.] como por exemplo<br><br>
 
-<b>SELECT<b><br>
-<b>Veiculo.marca<b>, Venda.valorVenda,<br>
-<b>Cliente.nome<b> AS  nome_cliente,<br>
-Funcionario.nome AS nome_cliente,<b> o "AS" é utilizado para dentro desta busca ele receber um apelido para exibição e conseguir exibir pois neste caso sem o AS ele exibiria duas tabelas com nomeada de "nome".<br>
+<b>SELECT</b><br>
+<b>Veiculo.marca</b>, Venda.valorVenda,<br>
+<b>Cliente.nome</b> AS  nome_cliente,<br>
+Funcionario.nome AS nome_cliente, o <b>"AS"</b> é utilizado para dentro desta busca ele receber um apelido para exibição e conseguir exibir pois neste caso sem o AS ele exibiria duas tabelas com nomeada de "nome".<br>
 FROM Veiculo<br>
-<b>INNER JOIN<b> Venda <b>ON<b> Veiculo.idVeiculo = Venda.idVeiculo<br>
+<b>INNER JOIN</b> Venda <b>ON<b> Veiculo.idVeiculo = Venda.idVeiculo<br>
 INNER JOIN Cliente ON Venda.idCliente = Cliente.idCliente<br>
 INNER JOIN Funcionario ON Venda.idFuncionario = Funcionario.id_Funcionario
 WHERE Venda.data_venda > '2024-09-01;
